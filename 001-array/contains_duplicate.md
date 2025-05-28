@@ -1,6 +1,10 @@
-# Contains Duplicate - Solution ![contains_duplicate_icon](https://img.icons8.com/ios/50/000000/double-click.png)
+# Contains Duplicate - Solution
 
-## Problem Statement
+This is my solution to the "Contains Duplicate" problem, which checks if any element in the given integer array `nums` appears more than once.
+
+---
+
+## 📌 Problem Statement
 
 **Title**: Contains Duplicate
 
@@ -23,7 +27,7 @@ Given an integer array `nums`, return `true` if any value appears more than once
 
 ---
 
-## Date Done ![calendar_icon](https://img.icons8.com/ios/50/000000/calendar.png)
+## 📅 Date Done
 
 **Date**: 27/05/2025  
 **Time Taken**: 10 minutes
