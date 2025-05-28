@@ -31,3 +31,5 @@ Given an integer array `nums`, return `true` if any value appears more than once
 
 **Date**: 27/05/2025  
 **Time Taken**: 10 minutes
+
+---
