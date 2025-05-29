@@ -35,6 +35,6 @@ An anagram is a string that contains the exact same characters as another string
 ## 📅 Date Done
 
 **Date**: 28/05/2025  
-**Time Taken**: 60 minutes
+**Time Taken**: 40 minutes
 
 ---
