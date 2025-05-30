@@ -10,5 +10,5 @@ class Solution:
                             return arr
                 except:
                     return False
-        
+                
         return arr
