@@ -1,4 +1,4 @@
-# NeetCode Daily Practice
+# NeetCode Daily Practice - Road to Big Tech
 
 This repository is dedicated to my daily algorithm practice based on the [NeetCode](https://neetcode.io/) roadmap.
 
