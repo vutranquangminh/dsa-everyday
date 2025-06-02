@@ -1,4 +1,4 @@
-# Top K Frequent Elements - Solution
+# 🧮 Top K Frequent Elements - Solution
 
 This is my solution to the **"Top K Frequent Elements"** problem, which returns the `k` most frequent elements from a given integer array.
 

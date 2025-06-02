@@ -1,4 +1,4 @@
-# Contains Duplicate - Solution
+# 🧮 Contains Duplicate - Solution
 
 This is my solution to the "Contains Duplicate" problem, which checks if any element in the given integer array `nums` appears more than once.
 

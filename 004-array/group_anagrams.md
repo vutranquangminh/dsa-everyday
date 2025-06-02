@@ -1,4 +1,4 @@
-# Group Anagrams - Solution
+# 🧮 Group Anagrams - Solution
 
 This is my solution to the **"Group Anagrams"** problem, which groups strings that are anagrams of each other into sublists.
 
