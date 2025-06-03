@@ -2,7 +2,7 @@
 
 This repository is dedicated to my daily algorithm practice based on the [NeetCode](https://neetcode.io/) roadmap.
 
-My goal is to consistently solve problems every day until I land a software engineering internship at a top tech company such as **NAB**, **MoMo**, or **Grab** — the companies I'm aiming for.
+My goal is to consistently solve problems every day until I land a software engineering internship at a big tech company in Vietnam such as **NAB**, **MoMo**, or **Grab** — the companies I'm aiming for.
 
 ---
 
@@ -37,3 +37,4 @@ Stay consistent. Stay focused.
 **Intern at Big Tech — here I come!**
 
 ---
+## Streak 1 week :)
