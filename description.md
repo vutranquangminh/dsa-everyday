@@ -1,40 +1,62 @@
-#🧮 NeetCode Daily Practice - Road to Big Tech
+# 🧮 NeetCode Daily Practice: Road to Big Tech (Vietnam Edition)
 
-This repository is dedicated to my daily algorithm practice based on the [NeetCode](https://neetcode.io/) roadmap.
-
-My goal is to consistently solve problems every day until I land a software engineering internship at a big tech company in Vietnam such as **NAB**, **MoMo**, or **Grab** — the companies I'm aiming for.
+> Welcome to my algorithm grind repository — a journey powered by [NeetCode](https://neetcode.io/), where I practice data structures and algorithms daily to sharpen my coding skills and prepare for top-tier software engineering internships.
 
 ---
 
-## 📌 Purpose
+## 🎯 Goals
 
-- Improve my problem-solving and coding skills.
-- Build discipline through daily consistency.
-- Prepare for technical interviews at competitive tech companies.
+- 📚 Master core DSA topics following the NeetCode roadmap.
+- ⚙️ Build strong coding intuition and interview readiness.
+- 🔁 Maintain daily consistency and discipline.
+- 💼 Secure an internship at a competitive tech company in Vietnam.
 
 ---
 
-## 📅 Progress
+## 🧠 Roadmap
 
-I will update this repository regularly with:
+Based on the visual above, my learning path is:
 
-- ✅ Solved problems from NeetCode
-- 🧠 Notes and explanations
-- 📂 Organized folders by topic (e.g., Arrays, Graphs, DP)
+1. Arrays & Hashing  
+2. Two Pointers, Stack  
+3. Sliding Window, Linked List, Binary Search  
+4. Trees  
+5. Tries, Heap / Priority Queue, Backtracking
+
+---
+
+## 📅 Progress Tracker
+
+This repo includes:
+
+- ✅ Solved problems with clean Python code
+- 🧠 My explanations, notes, and edge-case handling
+- 📂 Organized folders by topic:
+
+```
+📁 arrays/
+📁 binary_search/
+📁 trees/
+📁 backtracking/
+...
+```
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Language:** Python (primary).
-- **Platforms:** NeetCode.io
+- **Language**: Python  
+- **Platform**: NeetCode.io
 
 ---
 
-## 🚀 Let's Go!
+## 🏁 Final Words
 
-Stay consistent. Stay focused.  
-**Intern at Big Tech — here I come!**
+> “Consistency beats intensity.”  
+> A little progress each day adds up to big results.
+
+📌 If you're also grinding for tech interviews, feel free to fork, star ⭐ this repo, or connect!  
+Let’s level up together.  
+**#InternAtBigTech**
 
 ---
-## Streak 1 week :)
