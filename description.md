@@ -35,8 +35,13 @@ This repo includes:
 
 ```
 📁 arrays/
+📁 twopoiter/
 📁 stack/
+📁 binarysearch/
+📁 slidingwindow/
+📁 linkedlist/
 📁 trees/
+📁 tries/
 📁 backtracking/
 ...
 ```
