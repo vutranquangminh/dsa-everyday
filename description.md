@@ -18,10 +18,15 @@
 Based on the visual above, my learning path is:
 
 1. Arrays & Hashing  
-2. Two Pointers, Stack  
-3. Sliding Window, Linked List, Binary Search  
-4. Trees  
-5. Tries, Heap / Priority Queue, Backtracking
+2. Two Pointers
+3. Stack
+4. Binary Search
+5. Sliding Window
+6. Linked List
+7. Trees  
+8. Tries
+9. Backtracking
+10. Heap / Priority Queue
 
 ---
 
