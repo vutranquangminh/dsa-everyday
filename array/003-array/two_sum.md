@@ -46,7 +46,7 @@ Return the answer with the smaller index first.
 
 ## 📅 Date Done
 
-**Date**: 29/05/2025  
-**Time Taken**: 45 minutes
+**Date**: *29/05/2025*  
+**Time Taken**: *45 minutes*
 
 ---

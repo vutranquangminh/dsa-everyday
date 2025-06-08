@@ -41,7 +41,7 @@ Design an algorithm to encode a list of strings to a single string. The encoded 
 
 ## 📅 Date Done
 
-**Date**: 01/06/2025  
-**Time Taken**: 120 minutes
+**Date**: *01/06/2025*  
+**Time Taken**: *120 minutes*
 
 ---

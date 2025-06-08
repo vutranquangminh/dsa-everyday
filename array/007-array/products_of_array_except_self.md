@@ -42,7 +42,7 @@ Do **not** use division, and solve it in `O(n)` time.
 
 ## 📅 Date Done
 
-**Date**: 02/06/2025  
-**Time Taken**: 30 minutes
+**Date**: *02/06/2025*  
+**Time Taken**: *30 minutes*
 
 ---
