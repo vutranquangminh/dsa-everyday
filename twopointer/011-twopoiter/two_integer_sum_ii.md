@@ -58,7 +58,7 @@ The sum of `1` (at index 1) and `2` (at index 2) is `3`.
 
 ## 📅 Date Done
 
-**Date**: 07/06/2025  
-**Time Taken**: 30 minutes
+**Date**: *06/06/2025*  
+**Time Taken**: *30 minutes*
 
 ---
