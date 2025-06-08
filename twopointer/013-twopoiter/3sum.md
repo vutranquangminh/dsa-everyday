@@ -1,5 +1,5 @@
 
-# ➕ 3Sum - Problem Description
+# 🧮 3Sum - Problem Description
 
 This is the description of the **"3Sum"** problem, where the goal is to find all unique triplets in the array that sum up to zero.
 
@@ -89,4 +89,4 @@ A single valid triplet exists with all elements zero.
 ## 📅 Date Done
 
 **Date**: 08/06/2025  
-**Time Taken**: *xx mins* (fill this in when you're done)
+**Time Taken**: 90 minutes
