@@ -49,3 +49,5 @@ The longest consecutive sequence is `[2, 3, 4, 5]`.
 
 **Date**: *03/06/2025*  
 **Time Taken**: *30 minutes*
+
+---

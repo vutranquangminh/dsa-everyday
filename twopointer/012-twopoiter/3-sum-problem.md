@@ -1,13 +1,12 @@
+# 🧮 3 Sum - Medium
 
-# 🧮 3Sum - Problem Description
-
-This is the description of the **"3Sum"** problem, where the goal is to find all unique triplets in the array that sum up to zero.
+This is the description of the **"3 Sum"** problem, where the goal is to find all unique triplets in the array that sum up to zero.
 
 ---
 
 ## 📌 Problem Statement
 
-**Title**: 3Sum
+**Title**: 3 Sum
 
 **Problem Description**:  
 Given an integer array `nums`, return all the **unique triplets** `[nums[i], nums[j], nums[k]]` such that:
@@ -90,3 +89,5 @@ A single valid triplet exists with all elements zero.
 
 **Date**: *07/06/2025*  
 **Time Taken**: *90 minutes*
+
+---

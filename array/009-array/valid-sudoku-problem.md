@@ -74,3 +74,5 @@ There are two `1`s in the top-left 3x3 sub-box.
 
 **Date**: *04/06/2025*
 **Time Taken**: *180 minutes*
+
+---

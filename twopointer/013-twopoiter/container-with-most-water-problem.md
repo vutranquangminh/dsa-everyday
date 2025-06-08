@@ -1,5 +1,4 @@
-
-# 🧮 Container With Most Water - Problem Description
+# 🧮 Container With Most Water - Medium
 
 This is the description of the **"Container With Most Water"** problem, where the goal is to find two lines that together with the x-axis form a container, such that the container holds the most water.
 
@@ -70,3 +69,5 @@ Choose the first and last lines. Width = 2, height = min(2, 2) = 2 → Area = 2 
 
 **Date**: *08/06/2025*  
 **Time Taken**: *30 minutes*
+
+---

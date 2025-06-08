@@ -35,7 +35,7 @@ This repo includes:
 
 ```
 📁 arrays/
-📁 binary_search/
+📁 stack/
 📁 trees/
 📁 backtracking/
 ...

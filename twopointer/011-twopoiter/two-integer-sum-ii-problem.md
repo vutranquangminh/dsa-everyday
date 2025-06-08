@@ -1,5 +1,4 @@
-
-# 🧮 Two Integer Sum II - Problem Description
+# 🧮 Two Integer Sum II - Medium
 
 This is the description of the **"Two Integer Sum II"** problem, where the goal is to find two numbers in a sorted array that add up to a given target.
 

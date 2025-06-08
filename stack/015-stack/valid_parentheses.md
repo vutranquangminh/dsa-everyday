@@ -1,5 +1,4 @@
-
-# 🧮 Valid Parentheses - Problem Description
+# 🧮 Valid Parentheses - Easy
 
 This is the description of the **"Valid Parentheses"** problem, which checks if a given string of brackets is valid according to standard matching rules.
 
