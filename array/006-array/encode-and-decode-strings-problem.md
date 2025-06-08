@@ -1,4 +1,4 @@
-# 🧮 Encode and Decode Strings - Solution
+# 🧮 Encode and Decode Strings - Medium
 
 This is my solution to the **"Encode and Decode Strings"** problem, which encodes a list of strings into a single string and decodes it back to the original list.
 

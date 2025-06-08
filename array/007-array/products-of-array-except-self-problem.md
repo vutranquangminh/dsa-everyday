@@ -1,4 +1,4 @@
-# 🧮 Products of Array Except Self - Solution
+# 🧮 Products of Array Except Self - Medium
 
 This is my solution to the **"Products of Array Except Self"** problem, which returns an array where each element is the product of all elements of the input array except the one at the same index.
 

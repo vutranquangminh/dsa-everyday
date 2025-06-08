@@ -1,4 +1,4 @@
-# 🧮 Two Sum - Solution
+# 🧮 Two Sum - Easy
 
 This is my solution to the **"Two Sum"** problem, which finds two indices in an array such that their corresponding values add up to a given target.
 

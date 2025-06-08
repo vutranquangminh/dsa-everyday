@@ -1,4 +1,4 @@
-# 🧮 Valid Sudoku - Problem Description
+# 🧮 Valid Sudoku - Medium
 
 This is the description of the **"Valid Sudoku"** problem, which checks if a given 9x9 Sudoku board follows the standard rules of validity.
 

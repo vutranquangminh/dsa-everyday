@@ -1,4 +1,4 @@
-# 🧮 Longest Consecutive Sequence - Solution
+# 🧮 Longest Consecutive Sequence - Medium
 
 This is my solution to the **"Longest Consecutive Sequence"** problem, which finds the length of the longest sequence of consecutive integers in an array, regardless of their original positions.
 

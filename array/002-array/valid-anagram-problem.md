@@ -1,4 +1,4 @@
-# 🧮 Valid Anagram - Solution
+# 🧮 Valid Anagram - Easy
 
 This is my solution to the "Valid Anagram" problem, which checks if two strings are anagrams of each other.
 
