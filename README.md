@@ -43,8 +43,8 @@ This repo contains:
 - 📂 **Organized by topic folders**, like:
 
 ```
-📁 arrays/
-📁 twopointers/
+📁 arrays_&_hashing/
+📁 two_pointers/
 📁 stack/
 📁 binarysearch/
 📁 slidingwindow/
