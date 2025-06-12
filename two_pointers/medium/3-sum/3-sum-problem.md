@@ -1,25 +1,26 @@
-# 🧮 3 Sum - Medium
 
-This is the description of the **"3 Sum"** problem, where the goal is to find all unique triplets in the array that sum up to zero.
+# 🧮 3Sum - Medium
 
 ---
 
 ## 📌 Problem Statement
 
-**Title**: 3 Sum
+**Title**: 3Sum
 
 **Problem Description**:  
-Given an integer array `nums`, return all the **unique triplets** `[nums[i], nums[j], nums[k]]` such that:
+Given an integer array `nums`, return **all unique triplets** `[nums[i], nums[j], nums[k]]` such that:
 
 - `nums[i] + nums[j] + nums[k] == 0`
-- `i`, `j`, and `k` are all **distinct indices**
+- `i`, `j`, and `k` are **distinct**
+- No **duplicate triplets** are allowed in the output
 
-The solution **must not contain duplicate triplets**. You can return the triplets in **any order**.
+You may return the triplets in **any order**.
 
 ---
 
-## 💡 Example 1
+## 💡 Examples
 
+### Example 1  
 **Input**:  
 ```python
 nums = [-1, 0, 1, 2, -1, -4]
@@ -31,14 +32,14 @@ nums = [-1, 0, 1, 2, -1, -4]
 ```
 
 **Explanation**:  
-Valid triplets that sum to zero include:
-- (-1) + 0 + 1
-- (-1) + (-1) + 2
+Valid combinations that sum to zero:
+- `[-1, 0, 1]`
+- `[-1, -1, 2]`  
+Duplicates are avoided.
 
 ---
 
-## 💡 Example 2
-
+### Example 2  
 **Input**:  
 ```python
 nums = [0, 1, 1]
@@ -49,13 +50,9 @@ nums = [0, 1, 1]
 []
 ```
 
-**Explanation**:  
-No valid triplet that sums to zero.
-
 ---
 
-## 💡 Example 3
-
+### Example 3  
 **Input**:  
 ```python
 nums = [0, 0, 0]
@@ -66,22 +63,41 @@ nums = [0, 0, 0]
 [[0, 0, 0]]
 ```
 
-**Explanation**:  
-A single valid triplet exists with all elements zero.
-
 ---
 
-## ✅ Constraints
+## 📎 Constraints
 
 - `3 <= nums.length <= 1000`  
-- `-10^5 <= nums[i] <= 10^5`  
+- `-10⁵ <= nums[i] <= 10⁵`
 
 ---
 
-## ⏱️ Recommended Time & Space Complexity
+## ✅ Recommended Time & Space Complexity
 
-- **Time Complexity**: `O(n^2)`  
-- **Space Complexity**: `O(1)` (excluding output)
+- **Time Complexity**: `O(n²)`  
+- **Space Complexity**: `O(1)` (excluding the result list)
+
+---
+
+## 💡 Hints
+
+- **Hint 1**:  
+  Brute-force (`O(n³)`) is too slow. Think about sorting and reducing complexity.
+
+- **Hint 2**:  
+  Sort the array. Fix `i`, then search for pairs with a **two-pointer approach**.
+
+- **Hint 3**:  
+  Equation becomes:  
+  `nums[i] + nums[j] + nums[k] == 0` →  
+  `nums[j] + nums[k] == -nums[i]`  
+  Use two pointers on the subarray to the right of `i`.
+
+- **Hint 4**:  
+  Move pointers based on comparison between current sum and target (`-nums[i]`).
+
+- **Hint 5**:  
+  To avoid duplicates, skip over the same values for both `i`, `j`, and `k`.
 
 ---
 

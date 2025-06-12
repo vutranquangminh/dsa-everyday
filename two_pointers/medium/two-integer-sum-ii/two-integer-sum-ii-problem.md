@@ -1,6 +1,5 @@
-# 🧮 Two Integer Sum II - Medium
 
-This is the description of the **"Two Integer Sum II"** problem, where the goal is to find two numbers in a sorted array that add up to a given target.
+# 🧮 Two Integer Sum II - Medium
 
 ---
 
@@ -9,24 +8,25 @@ This is the description of the **"Two Integer Sum II"** problem, where the goal 
 **Title**: Two Integer Sum II
 
 **Problem Description**:  
-You are given a **sorted** array of integers `numbers` in **non-decreasing order**. Your task is to find **two distinct indices** `index1` and `index2` (1-indexed) such that:
+You are given an array of integers `numbers` sorted in **non-decreasing order**.  
+Find **two distinct indices** `index1` and `index2` (1-indexed) such that:
 
 - `numbers[index1 - 1] + numbers[index2 - 1] == target`
 - `index1 < index2`
 
+You **must not** use the same element twice.  
 Return the pair `[index1, index2]`.  
-It is guaranteed that **exactly one valid solution exists**.  
-You **must not use extra space** (i.e., achieve `O(1)` space complexity).
-
-> **Note**: Do not use the same element twice.
+It is **guaranteed** that exactly one valid solution exists.  
+You must solve it using **`O(1)` additional space**.
 
 ---
 
-## 💡 Example 1
+## 💡 Example
 
+### Example 1  
 **Input**:  
 ```python
-numbers = [1, 2, 3, 4]  
+numbers = [1, 2, 3, 4]
 target = 3
 ```
 
@@ -36,22 +36,41 @@ target = 3
 ```
 
 **Explanation**:  
-The sum of `1` (at index 1) and `2` (at index 2) is `3`.
+The sum of `1` (index 1) and `2` (index 2) is `3`.
 
 ---
 
-## ✅ Constraints
+## 📎 Constraints
 
 - `2 <= numbers.length <= 1000`  
 - `-1000 <= numbers[i] <= 1000`  
-- `-1000 <= target <= 1000`  
+- `-1000 <= target <= 1000`
 
 ---
 
-## ⏱️ Recommended Time & Space Complexity
+## ✅ Recommended Time & Space Complexity
 
 - **Time Complexity**: `O(n)`  
-- **Space Complexity**: `O(1)`  
+- **Space Complexity**: `O(1)`
+
+---
+
+## 💡 Hints
+
+- **Hint 1**:  
+  Brute-force tries all pairs → `O(n^2)` — not efficient.
+
+- **Hint 2**:  
+  Use the fact that the array is **sorted**.
+
+- **Hint 3**:  
+  Apply the **two-pointer technique**:  
+  - If `left + right > target` → move `right` left  
+  - If `left + right < target` → move `left` right  
+  - Else → return their indices
+
+- **Hint 4**:  
+  This works because the array is sorted. You always move toward a more optimal sum.
 
 ---
 

@@ -1,6 +1,5 @@
-# 🧮 Container With Most Water - Medium
 
-This is the description of the **"Container With Most Water"** problem, where the goal is to find two lines that together with the x-axis form a container, such that the container holds the most water.
+# 🧮 Container With Most Water - Medium
 
 ---
 
@@ -9,15 +8,19 @@ This is the description of the **"Container With Most Water"** problem, where th
 **Title**: Container With Most Water
 
 **Problem Description**:  
-You are given an integer array `height` where `height[i]` represents the height of the `i`-th vertical line on the x-axis.  
-You may choose any two lines to form a container. The container is formed between the two lines and the x-axis.
+You are given an array `height` where `height[i]` represents the height of the `iᵗʰ` vertical bar.  
 
-Return the **maximum amount of water** a container can store.
+You may choose **any two bars** to form a container.  
+Return the **maximum amount of water** a container can store between them.
+
+> The container’s water volume is calculated by:  
+> `width * min(height[i], height[j])`
 
 ---
 
-## 💡 Example 1
+## 💡 Examples
 
+### Example 1  
 **Input**:  
 ```python
 height = [1, 7, 2, 5, 4, 7, 3, 6]
@@ -28,14 +31,9 @@ height = [1, 7, 2, 5, 4, 7, 3, 6]
 36
 ```
 
-**Explanation**:  
-The lines at indices `1` and `7` (heights 7 and 6) can form a container with width `6`.  
-So, `min(7, 6) * 6 = 6 * 6 = 36`.
-
 ---
 
-## 💡 Example 2
-
+### Example 2  
 **Input**:  
 ```python
 height = [2, 2, 2]
@@ -46,22 +44,36 @@ height = [2, 2, 2]
 4
 ```
 
-**Explanation**:  
-Choose the first and last lines. Width = 2, height = min(2, 2) = 2 → Area = 2 * 2 = 4.
-
 ---
 
-## ✅ Constraints
+## 📎 Constraints
 
 - `2 <= height.length <= 1000`  
 - `0 <= height[i] <= 1000`
 
 ---
 
-## ⏱️ Recommended Time & Space Complexity
+## ✅ Recommended Time & Space Complexity
 
 - **Time Complexity**: `O(n)`  
-- **Space Complexity**: `O(1)`  
+- **Space Complexity**: `O(1)`
+
+---
+
+## 💡 Hints
+
+- **Hint 1**:  
+  Brute-force checks all pairs of lines → `O(n²)` — can be too slow.
+
+- **Hint 2**:  
+  You can use a **two-pointer** technique.
+
+- **Hint 3**:  
+  Water between two bars = `(j - i) * min(height[i], height[j])`.  
+  Move the pointer with the **smaller height** to potentially find a better area.
+
+- **Hint 4**:  
+  Because the **shorter bar limits the water**, shifting it gives a chance to find a **taller one**.
 
 ---
 
