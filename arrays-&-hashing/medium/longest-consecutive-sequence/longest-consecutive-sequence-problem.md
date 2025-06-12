@@ -1,6 +1,5 @@
-# 🧮 Longest Consecutive Sequence - Medium
 
-This is my solution to the **"Longest Consecutive Sequence"** problem, which finds the length of the longest sequence of consecutive integers in an array, regardless of their original positions.
+# 🧮 Longest Consecutive Sequence - Medium
 
 ---
 
@@ -9,39 +8,74 @@ This is my solution to the **"Longest Consecutive Sequence"** problem, which fin
 **Title**: Longest Consecutive Sequence
 
 **Problem Description**:  
-Given an integer array `nums`, return the length of the longest consecutive sequence that can be formed.
+Given an array of integers `nums`, return the **length** of the **longest consecutive sequence** of elements that can be formed.
 
-A **consecutive sequence** is a sequence in which each number is exactly `+1` from the previous number. Elements **do not** have to appear consecutively in the input array.
+A **consecutive sequence** is defined as a sequence where each number is exactly **1 greater** than the previous number.  
+👉 The elements **do not need to be adjacent** in the original array.
 
-You must write an algorithm that runs in **O(n)** time.
+Your algorithm must run in **`O(n)`** time.
 
-### Example 1:
+---
+
+## 💡 Examples
+
+### Example 1  
 **Input**:  
-`[2, 20, 4, 10, 3, 4, 5]`
+```python
+nums = [2, 20, 4, 10, 3, 4, 5]
+```
 
 **Output**:  
-`4`
+```python
+4
+```
 
 **Explanation**:  
-The longest consecutive sequence is `[2, 3, 4, 5]`.
+The longest sequence is `[2, 3, 4, 5]`.
 
-### Example 2:
+---
+
+### Example 2  
 **Input**:  
-`[0, 3, 2, 5, 4, 6, 1, 1]`
+```python
+nums = [0, 3, 2, 5, 4, 6, 1, 1]
+```
 
 **Output**:  
-`7`
+```python
+7
+```
 
-### Constraints:
-- `0 <= nums.length <= 1000`
-- `-10^9 <= nums[i] <= 10^9`
+**Explanation**:  
+The sequence is `[0, 1, 2, 3, 4, 5, 6]`.
+
+---
+
+## 📎 Constraints
+
+- `0 <= nums.length <= 1000`  
+- `-10⁹ <= nums[i] <= 10⁹`
 
 ---
 
 ## ✅ Recommended Time & Space Complexity
 
-- **Time Complexity**: `O(n)`
+- **Time Complexity**: `O(n)`  
 - **Space Complexity**: `O(n)`
+
+---
+
+## 💡 Hints
+
+- **Hint 1**:  
+  Brute-force: Start sequence at every element → `O(n²)`. Too slow!
+
+- **Hint 2**:  
+  A number is a **start of a sequence** if `num - 1` is **not in the array**.
+
+- **Hint 3**:  
+  Use a **hash set** for O(1) lookups.  
+  Only build sequences from **starting points**.
 
 ---
 

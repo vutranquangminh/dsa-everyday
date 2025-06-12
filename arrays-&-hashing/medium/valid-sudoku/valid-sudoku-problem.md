@@ -1,6 +1,5 @@
-# 🧮 Valid Sudoku - Medium
 
-This is the description of the **"Valid Sudoku"** problem, which checks if a given 9x9 Sudoku board follows the standard rules of validity.
+# 🧮 Valid Sudoku - Medium
 
 ---
 
@@ -9,64 +8,102 @@ This is the description of the **"Valid Sudoku"** problem, which checks if a giv
 **Title**: Valid Sudoku
 
 **Problem Description**:  
-You are given a 9 x 9 Sudoku board `board`. A Sudoku board is valid if the following rules are followed:
+You are given a 9 × 9 `board` representing a partially filled Sudoku grid.  
+A **valid** Sudoku board must satisfy the following rules:
 
-- Each **row** must contain the digits `1-9` without duplicates.  
-- Each **column** must contain the digits `1-9` without duplicates.  
-- Each of the nine **3 x 3 sub-boxes** of the grid must contain the digits `1-9` without duplicates.  
+- Each row contains the digits `1-9` without **duplicates**  
+- Each column contains the digits `1-9` without **duplicates**  
+- Each of the **nine 3×3 sub-boxes** must contain the digits `1-9` without **duplicates**
 
-Return `true` if the Sudoku board is valid, otherwise return `false`.
+Return `True` if the board is **valid**, otherwise return `False`.
 
-> **Note**: A board does not need to be full or be solvable to be valid.
-
-### Example 1:
-**Input**:  
-```python
-board = [
- ["1","2",".",".","3",".",".",".","."],
- ["4",".",".","5",".",".",".",".","."],
- [".","9","8",".",".",".",".",".","3"],
- ["5",".",".",".","6",".",".",".","4"],
- [".",".",".","8",".","3",".",".","5"],
- ["7",".",".",".","2",".",".",".","6"],
- [".",".",".",".",".",".","2",".","."],
- [".",".",".","4","1","9",".",".","8"],
- [".",".",".",".","8",".",".","7","9"]
-]
-```
-
-**Output**:  
-`true`
+> ⚠️ The board **does not need to be solvable or complete** to be considered valid.
 
 ---
 
-### Example 2:
-**Input**:  
+## 💡 Examples
+
+### Example 1  
+**Input**:
 ```python
 board = [
- ["1","2",".",".","3",".",".",".","."],
- ["4",".",".","5",".",".",".",".","."],
- [".","9","1",".",".",".",".",".","3"],
- ["5",".",".",".","6",".",".",".","4"],
- [".",".",".","8",".","3",".",".","5"],
- ["7",".",".",".","2",".",".",".","6"],
- [".",".",".",".",".",".","2",".","."],
- [".",".",".","4","1","9",".",".","8"],
- [".",".",".",".","8",".",".","7","9"]
+  ["1","2",".",".","3",".",".",".","."],
+  ["4",".",".","5",".",".",".",".","."],
+  [".","9","8",".",".",".",".",".","3"],
+  ["5",".",".",".","6",".",".",".","4"],
+  [".",".",".","8",".","3",".",".","5"],
+  ["7",".",".",".","2",".",".",".","6"],
+  [".",".",".",".",".",".","2",".","."],
+  [".",".",".","4","1","9",".",".","8"],
+  [".",".",".",".","8",".",".","7","9"]
 ]
 ```
 
 **Output**:  
-`false`  
+```python
+True
+```
+
+---
+
+### Example 2  
+**Input**:
+```python
+board = [
+  ["1","2",".",".","3",".",".",".","."],
+  ["4",".",".","5",".",".",".",".","."],
+  [".","9","1",".",".",".",".",".","3"],
+  ["5",".",".",".","6",".",".",".","4"],
+  [".",".",".","8",".","3",".",".","5"],
+  ["7",".",".",".","2",".",".",".","6"],
+  [".",".",".",".",".",".","2",".","."],
+  [".",".",".","4","1","9",".",".","8"],
+  [".",".",".",".","8",".",".","7","9"]
+]
+```
+
+**Output**:  
+```python
+False
+```
+
 **Explanation**:  
-There are two `1`s in the top-left 3x3 sub-box.
+Duplicate `1` appears in the top-left 3×3 sub-box.
+
+---
+
+## 📎 Constraints
+
+- `board.length == 9`  
+- `board[i].length == 9`  
+- `board[i][j]` is a digit `'1'`–`'9'` or `'.'`
 
 ---
 
 ## ✅ Recommended Time & Space Complexity
 
-- **Time Complexity**: `O(n^2)`  
-- **Space Complexity**: `O(n^2)`
+- **Time Complexity**: `O(n²)`  
+- **Space Complexity**: `O(n²)`  
+  Where `n = 9` (grid size)
+
+---
+
+## 💡 Hints
+
+- **Hint 1**:  
+  Use a **hash set** to detect duplicates efficiently.
+
+- **Hint 2**:  
+  Create sets for:
+  - Rows  
+  - Columns  
+  - 3×3 Boxes
+
+- **Hint 3**:  
+  To index a sub-box, use:  
+  ```python
+  box_index = (row // 3) * 3 + (col // 3)
+  ```
 
 ---
 

@@ -1,42 +1,76 @@
-# 🧮 Products of Array Except Self - Medium
 
-This is my solution to the **"Products of Array Except Self"** problem, which returns an array where each element is the product of all elements of the input array except the one at the same index.
+# 🧮 Product of Array Except Self - Medium
 
 ---
 
 ## 📌 Problem Statement
 
-**Title**: Products of Array Except Self
+**Title**: Product of Array Except Self
 
 **Problem Description**:  
-Given an integer array `nums`, return an array `output` such that `output[i]` is equal to the product of all the elements of `nums` except `nums[i]`.
+Given an array of integers `nums`, return an array `output` such that `output[i]` is the **product of all elements** in `nums` **except** `nums[i]`.
 
-Do **not** use division, and solve it in `O(n)` time.
+You **cannot use division**, and the solution must run in **`O(n)` time**.
 
-### Example 1:
+---
+
+## 💡 Examples
+
+### Example 1  
 **Input**:  
-`[1, 2, 4, 6]`  
+```python
+nums = [1, 2, 4, 6]
+```
 
 **Output**:  
-`[48, 24, 12, 8]`
+```python
+[48, 24, 12, 8]
+```
 
-### Example 2:
+---
+
+### Example 2  
 **Input**:  
-`[-1, 0, 1, 2, 3]`  
+```python
+nums = [-1, 0, 1, 2, 3]
+```
 
 **Output**:  
-`[0, -6, 0, 0, 0]`
+```python
+[0, -6, 0, 0, 0]
+```
 
-### Constraints:
-- `2 <= nums.length <= 1000`
-- `-20 <= nums[i] <= 20`
+---
+
+## 📎 Constraints
+
+- `2 <= nums.length <= 1000`  
+- `-20 <= nums[i] <= 20`  
+- The product is guaranteed to fit in a 32-bit integer
 
 ---
 
 ## ✅ Recommended Time & Space Complexity
 
-- **Time Complexity**: `O(n)`
-- **Space Complexity**: `O(n)`
+- **Time Complexity**: `O(n)`  
+- **Space Complexity**: `O(n)` (excluding output)
+
+---
+
+## 💡 Hints
+
+- **Hint 1**:  
+  Brute force (`O(n²)`) would compute product for every index by excluding it. Too slow!
+
+- **Hint 2**:  
+  Store repeated work using **prefix** and **suffix** arrays.
+
+- **Hint 3**:  
+  - Left pass: Store **prefix products** (product of all elements before index `i`)
+  - Right pass: Store **suffix products** (product of all elements after index `i`)
+
+- **Hint 4**:  
+  Final output: `output[i] = prefix[i] * suffix[i]`
 
 ---
 

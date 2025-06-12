@@ -1,6 +1,5 @@
-# 🧮 Top K Frequent Elements - Medium
 
-This is my solution to the **"Top K Frequent Elements"** problem, which returns the `k` most frequent elements from a given integer array.
+# 🧮 Top K Frequent Elements - Medium
 
 ---
 
@@ -9,35 +8,69 @@ This is my solution to the **"Top K Frequent Elements"** problem, which returns 
 **Title**: Top K Frequent Elements
 
 **Problem Description**:  
-Given an integer array `nums` and an integer `k`, return the `k` most frequent elements in the array.
+Given an integer array `nums` and an integer `k`, return the `k` **most frequent elements** in the array.  
+The answer is guaranteed to be **unique**.  
+You may return the result in **any order**.
 
-The test cases are generated such that the answer is always unique.
+---
 
-### Example 1:
+## 💡 Examples
+
+### Example 1  
 **Input**:  
-`nums = [1,2,2,3,3,3], k = 2`
+```python
+nums = [1, 2, 2, 3, 3, 3]
+k = 2
+```
 
 **Output**:  
-`[2, 3]`
+```python
+[2, 3]
+```
 
-### Example 2:
+---
+
+### Example 2  
 **Input**:  
-`nums = [7,7], k = 1`
+```python
+nums = [7, 7]
+k = 1
+```
 
 **Output**:  
-`[7]`
+```python
+[7]
+```
 
-### Constraints:
-- `1 <= nums.length <= 10^4`
-- `-1000 <= nums[i] <= 1000`
+---
+
+## 📎 Constraints
+
+- `1 <= nums.length <= 10⁴`  
+- `-1000 <= nums[i] <= 1000`  
 - `1 <= k <= number of distinct elements in nums`
 
 ---
 
 ## ✅ Recommended Time & Space Complexity
 
-- **Time Complexity**: `O(n)`, where `n` is the size of the input array. This accounts for counting frequencies and sorting the elements.
-- **Space Complexity**: `O(n)`, where `n` is the size of the input array. Space is used for storing frequency counts.
+- **Time Complexity**: `O(n)`  
+- **Space Complexity**: `O(n)`  
+Where `n = len(nums)`
+
+---
+
+## 💡 Hints
+
+- **Hint 1**:  
+  Brute-force sorts by frequency → `O(n log n)`. Can we improve?
+
+- **Hint 2**:  
+  Group elements based on their **frequency** using **bucket sort**.
+
+- **Hint 3**:  
+  Create buckets from 1 to `n` where each bucket holds numbers with that frequency.  
+  Then collect from the **highest bucket** downward until you have `k` elements.
 
 ---
 

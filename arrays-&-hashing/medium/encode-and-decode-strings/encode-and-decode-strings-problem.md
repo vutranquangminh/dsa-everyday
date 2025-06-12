@@ -1,6 +1,5 @@
-# 🧮 Encode and Decode Strings - Medium
 
-This is my solution to the **"Encode and Decode Strings"** problem, which encodes a list of strings into a single string and decodes it back to the original list.
+# 🧮 Encode and Decode Strings - Medium
 
 ---
 
@@ -9,33 +8,81 @@ This is my solution to the **"Encode and Decode Strings"** problem, which encode
 **Title**: Encode and Decode Strings
 
 **Problem Description**:  
-Design an algorithm to encode a list of strings to a single string. The encoded string is then decoded back to the original list of strings.
+Design an algorithm to **encode** a list of strings into a **single string**,  
+and a method to **decode** that string back into the **original list** of strings.
 
-### Example 1:
+You must implement two functions:
+
+```python
+def encode(strs: List[str]) -> str:
+    pass
+
+def decode(s: str) -> List[str]:
+    pass
+```
+
+The encoded string must be able to **perfectly reconstruct** the input list.
+
+---
+
+## 💡 Examples
+
+### Example 1  
 **Input**:  
-`["neet","code","love","you"]`  
+```python
+["neet", "code", "love", "you"]
+```
 
 **Output**:  
-`["neet","code","love","you"]`
+```python
+["neet", "code", "love", "you"]
+```
 
-### Example 2:
+---
+
+### Example 2  
 **Input**:  
-`["we","say",":","yes"]`  
+```python
+["we", "say", ":", "yes"]
+```
 
 **Output**:  
-`["we","say",":","yes"]`
+```python
+["we", "say", ":", "yes"]
+```
 
-### Constraints:
-- `0 <= strs.length < 100`
-- `0 <= strs[i].length < 200`
+---
+
+## 📎 Constraints
+
+- `0 <= strs.length < 100`  
+- `0 <= strs[i].length < 200`  
 - `strs[i]` contains only UTF-8 characters
 
 ---
 
 ## ✅ Recommended Time & Space Complexity
 
-- **Time Complexity**: `O(m)` for each `encode()` and `decode()` call, where `m` is the sum of the lengths of all strings.
-- **Space Complexity**: `O(m + n)`, where `m` is the total length of all strings, and `n` is the number of strings.
+- **Time Complexity**: `O(m)` per `encode()` and `decode()` call  
+- **Space Complexity**: `O(m + n)`  
+Where `m` is the total length of all strings and `n` is the number of strings
+
+---
+
+## 💡 Hints
+
+- **Hint 1**:  
+  Naive delimiter (e.g. comma or `~`) fails if it appears inside a string.
+
+- **Hint 2**:  
+  Instead of using a separator, encode using **string length**.
+
+- **Hint 3**:  
+  Use the format:  
+  ```
+  encoded = "4#neet4#code4#love3#you"
+  ```  
+  Then decode by reading the number until `#`, and extracting that many characters.
 
 ---
 
