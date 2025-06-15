@@ -1,4 +1,3 @@
-
 # 🧮 Plus One - Easy
 
 ---
