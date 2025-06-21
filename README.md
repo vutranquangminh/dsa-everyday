@@ -1,4 +1,4 @@
-# 🧠 LeetCode Daily Grind: Vietnam Edition 🇻🇳  
+# 🧠 LeetCode Daily Grind  
 > _“Consistency beats intensity.” — Keep showing up, every day._
 
 Welcome to my personal DSA journal — a daily commitment to solving algorithm problems, following the [NeetCode Roadmap](https://neetcode.io/), and preparing for top-tier software engineering internships in Vietnam.
