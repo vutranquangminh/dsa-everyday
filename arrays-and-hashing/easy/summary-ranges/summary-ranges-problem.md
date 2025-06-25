@@ -85,5 +85,5 @@ nums = [0, 2, 3, 4, 6, 8, 9]
 
 ## 📅 Date Done
 
-**Date**: *25/06/2025*  
-**Time Taken**: *20 minutes*
+**Date**: *24/06/2025*  
+**Time Taken**: *40 minutes*
