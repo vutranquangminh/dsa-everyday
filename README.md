@@ -1,4 +1,7 @@
-# 🧠 Mastering DSA Daily 
+# 🧠 Mastering DSA Daily
+
+---
+
 > _“Start small. Be consistent. Master the fundamentals.”_
 
 Welcome to my daily **Data Structures & Algorithms (DSA)** journey. As a beginner in problem-solving, I'm committed to solving at least **one DSA problem every day** using **Python 3**, gradually progressing from HackerRank to LeetCode and finally consolidating knowledge via the NeetCode roadmap.
@@ -34,13 +37,71 @@ graph TD
 ```
 📁 dsa_everyday/
 ├── hackerrank/
-│   └── warmup/, arrays/, strings/, ...
+│   ├── warmup/
+│   ├── implementation/
+│   ├── strings/
+│   ├── sorting/
+│   ├── search/
+│   ├── graph_theory/
+│   ├── greedy/
+│   ├── dynamic_programming/
+│   ├── constructive_algorithms/
+│   ├── bit_manipulation/
+│   ├── recursion/
+│   ├── game_theory/
+│   ├── np_complete/
+│   └── debugging/
+|
 ├── leetcode/
-│   └── arrays_hashing/, two_pointers/, stack/, ...
+│   ├── array/
+│   ├── string/
+│   ├── hash_table/
+│   ├── dynamic_programming/
+│   ├── math/
+│   ├── sorting/
+│   ├── greedy/
+│   ├── depth_first_search/
+│   ├── binary_search/
+│   ├── tree/
+│   ├── breadth_first_search/
+│   ├── bit_manipulation/
+│   ├── two_pointers/
+│   ├── prefix_sum/
+│   ├── heap_priority_queue/
+│   ├── binary_tree/
+│   ├── stack/
+│   ├── graph/
+│   ├── sliding_window/
+│   ├── design/
+│   ├── linked_list/
+│   ├── backtracking/
+│   ├── intervals/
+│   ├── recursion/
+│   ├── tries/
+│   ├── union_find/
+│   ├── divide_and_conquer/
+│   └── memoization/
+|
 ├── neetcode/
-│   └── arrays_hashing/, trees/, dp/, ...
-├── revision_logs/
-│   └── hard_problems.md
+│   ├── arrays_hashing/
+│   ├── two_pointers/
+│   ├── stack/
+│   ├── binary_search/
+│   ├── sliding_window/
+│   ├── linked_list/
+│   ├── trees/
+│   ├── tries/
+│   ├── heap_priority_queue/
+│   ├── intervals/
+│   ├── greedy/
+│   ├── backtracking/
+│   ├── graphs/
+│   ├── advanced_graphs/
+│   ├── 1d_dp/
+│   ├── 2d_dp/
+│   ├── bit_manipulation/
+│   └── math_geometry/
+|
 └── README.md
 ```
 
