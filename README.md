@@ -1,80 +1,81 @@
-# 🧠 LeetCode Daily Grind  
-> _“Consistency beats intensity.” — Keep showing up, every day._
+# 🧠 DSA Everyday  
+> _“Start small. Be consistent. Master the fundamentals.”_
 
-Welcome to my personal DSA journal — a daily commitment to solving algorithm problems, following the [NeetCode Roadmap](https://neetcode.io/), and preparing for top-tier software engineering internships in Vietnam.
+Welcome to my daily **Data Structures & Algorithms (DSA)** journey. As a beginner in problem-solving, I'm committed to solving at least **one DSA problem every day** using **Python 3**, gradually progressing from HackerRank to LeetCode and finally consolidating knowledge via the NeetCode roadmap.
 
 ---
 
 ## 🎯 Objectives
 
-- 📚 **Master foundational DSA topics** with NeetCode's curated problem sets.
-- ⚙️ **Develop coding intuition** and sharpen problem-solving techniques.
-- 🔁 **Build consistency** through daily practice and review.
-- 💼 **Secure a software engineering internship** at a competitive tech company (e.g., VNG, Shopee, Tiki, FPT, or a Big Tech branch in Vietnam).
+- 🟢 **Begin with HackerRank** to grasp DSA fundamentals through beginner-friendly problems  
+- 🟡 **Level up with LeetCode** for more structured challenges across core topics  
+- 🔵 **Consolidate via NeetCode 150** to develop interview-level mastery  
+- 🧠 **Sharpen problem-solving skills** and build strong coding intuition  
+- 💼 **Secure a software engineering internship** at top companies in Vietnam (e.g., VNG, Shopee, Tiki, FPT, or Big Tech branches)
 
 ---
 
-## 🛣️ Roadmap (NeetCode 150)
+## 🛤️ Learning Roadmap
 
-My learning journey follows this structured path:
+```mermaid
+graph TD
+  A[HackerRank: Beginner Practice] --> B[LeetCode: Topic-wise Challenges]
+  B --> C[NeetCode 150: Systematic Mastery]
+```
 
-1. 📦 Arrays & Hashing  
-2. 🪞 Two Pointers  
-3. 📚 Stack  
-4. 🔍 Binary Search  
-5. 🪟 Sliding Window  
-6. 🔗 Linked List  
-7. 🌳 Trees  
-8. 🔠 Tries  
-9. 🧩 Backtracking  
-10. 🛞 Heap / Priority Queue  
-11. ✏️ Graphs  
-12. 🔁 Dynamic Programming
-
-> ✅ I track progress through each topic and revisit hard problems weekly.
+1. 🟢 **HackerRank** – Focus on fundamentals  
+2. 🟡 **LeetCode** – Practice topic-by-topic  
+3. 🔵 **NeetCode** – Consolidate with 12-topic roadmap
 
 ---
 
-## 📅 Progress Tracking
-
-This repo contains:
-
-- 🧠 **Clean Python solutions** with personal explanations and edge-case notes  
-- 📂 **Organized by topic folders**, like:
+## 📂 Repository Structure
 
 ```
-📁 arrays_&_hashing/
-📁 two_pointers/
-📁 stack/
-📁 binarysearch/
-📁 slidingwindow/
-📁 linkedlist/
-📁 trees/
-📁 tries/
-📁 backtracking/
-📁 heap/
-📁 dp/
-...
+📁 dsa_everyday/
+├── hackerrank/
+│   └── warmup/, arrays/, strings/, ...
+├── leetcode/
+│   └── arrays_hashing/, two_pointers/, stack/, ...
+├── neetcode/
+│   └── arrays_hashing/, trees/, dp/, ...
+├── revision_logs/
+│   └── hard_problems.md
+└── README.md
 ```
 
-- 🔁 **Revision logs** for challenging problems  
-- 🔥 **Difficulty flags** (Easy / Medium / Hard)
+Each folder includes:
+
+- ✅ **Clean Python 3 solutions**  
+- 💬 **Explanation & edge case notes**  
+- 🏷️ **Difficulty tags** (Easy / Medium / Hard)  
+- 🔁 **Revision logs** for reattempted problems
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Language**: Python 🐍  
-- **Platforms**: [LeetCode](https://leetcode.com/), [NeetCode](https://neetcode.io/)
+- **Language**: Python 3 🐍  
+- **Practice Platforms**: [HackerRank](https://www.hackerrank.com/), [LeetCode](https://leetcode.com/), [NeetCode](https://neetcode.io/)  
+- **Tools**: VS Code, Jupyter Notebook, GitHub  
 
 ---
 
-## 🏁 Final Notes
+## 🔄 Daily Commitment
 
-> “A little progress each day adds up to big results.”
+- 🗓️ **At least 1 DSA problem per day**  
+- 💭 **Reflect on learnings and mistakes**  
+- 🔁 **Revisit difficult problems weekly**  
+- 📈 **Track progress via commits**
 
-If you’re grinding for internships too, fork this repo, give it a ⭐, or connect with me. Let’s build discipline, confidence, and momentum — one problem at a time.
+---
 
-**#DailyLeetcode #DSAGrind #InternAtBigTechVN**
+## 🏁 Final Words
+
+> _“Small daily improvements are the key to long-term results.”_
+
+If you're also starting out, feel free to fork this repo, give it a ⭐, or connect with me. Let’s grow together — one problem at a time.
+
+**#DSAEveryday #Python3DSA #HackerRankToLeetCode #InternshipPrepVN**
 
 ---
