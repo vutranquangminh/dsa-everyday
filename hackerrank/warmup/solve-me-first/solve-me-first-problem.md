@@ -1,4 +1,3 @@
-
 # 🧮 Solve Me First - Easy
 
 ---
