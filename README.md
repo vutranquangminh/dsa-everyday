@@ -1,4 +1,4 @@
-# 🧠 DSA Everyday  
+# 🧠 Mastering DSA Daily 
 > _“Start small. Be consistent. Master the fundamentals.”_
 
 Welcome to my daily **Data Structures & Algorithms (DSA)** journey. As a beginner in problem-solving, I'm committed to solving at least **one DSA problem every day** using **Python 3**, gradually progressing from HackerRank to LeetCode and finally consolidating knowledge via the NeetCode roadmap.
