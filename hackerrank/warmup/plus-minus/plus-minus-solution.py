@@ -5,7 +5,6 @@ import re
 import sys
 
 def plusMinus(arr):
-    # Write your code here
     num = len(arr)
     nagative = []
     positive = []
