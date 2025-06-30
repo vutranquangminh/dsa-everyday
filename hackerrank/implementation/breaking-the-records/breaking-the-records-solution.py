@@ -5,7 +5,6 @@ import re
 import sys
 
 def breakingRecords(scores):
-    # Write your code here
     maxcount = 0
     maxscore = scores[0]
     mincount = 0

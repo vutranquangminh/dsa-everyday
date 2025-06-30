@@ -5,7 +5,6 @@ import re
 import sys
 
 def birthday(s, d, m):
-    # Write your code here
     res = 0
     for i in range(len(s) - m + 1):
         store = 0
