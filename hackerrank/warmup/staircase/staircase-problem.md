@@ -58,16 +58,6 @@ Each line has `n - i` spaces and `i` `#` characters.
 
 ---
 
-## ✅ Python Implementation
-
-```python
-def staircase(n):
-    for i in range(1, n + 1):
-        print(' ' * (n - i) + '#' * i)
-```
-
----
-
 ## 📅 Date Done
 
 **Date**: *03/06/2025*  

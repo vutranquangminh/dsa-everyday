@@ -64,22 +64,6 @@ grades = [73, 67, 38, 33]
 
 ---
 
-## ✅ Python Implementation
-
-```python
-def gradingStudents(grades):
-    rounded = []
-    for grade in grades:
-        if grade >= 38:
-            next_multiple = ((grade // 5) + 1) * 5
-            if next_multiple - grade < 3:
-                grade = next_multiple
-        rounded.append(grade)
-    return rounded
-```
-
----
-
 ## 📅 Date Done
 
 **Date**: *07/06/2025*  

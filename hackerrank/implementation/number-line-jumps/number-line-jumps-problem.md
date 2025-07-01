@@ -89,18 +89,6 @@ Kangaroo 2 is ahead and faster, so Kangaroo 1 can never catch up.
 
 ---
 
-## ✅ Python Implementation
-
-```python
-def kangaroo(x1, v1, x2, v2):
-    if v1 > v2 and (x2 - x1) % (v1 - v2) == 0:
-        return "YES"
-    else:
-        return "NO"
-```
-
----
-
 ## 📅 Date Done
 
 **Date**: *09/06/2025*  

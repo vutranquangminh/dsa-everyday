@@ -65,28 +65,6 @@ So, the result is `3`.
 
 ---
 
-## ✅ Python Implementation
-
-```python
-import math
-from functools import reduce
-
-def lcm(x, y):
-    return abs(x * y) // math.gcd(x, y)
-
-def getTotalX(a, b):
-    lcm_a = reduce(lcm, a)
-    gcd_b = reduce(math.gcd, b)
-
-    count = 0
-    for x in range(lcm_a, gcd_b + 1, lcm_a):
-        if gcd_b % x == 0:
-            count += 1
-    return count
-```
-
----
-
 ## 📅 Date Done
 
 **Date**: *10/06/2025*  

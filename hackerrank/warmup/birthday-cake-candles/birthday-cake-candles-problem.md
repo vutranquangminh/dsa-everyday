@@ -54,16 +54,6 @@ So, the child can blow out `2` candles.
 
 ---
 
-## ✅ Python Implementation
-
-```python
-def birthdayCakeCandles(candles):
-    tallest = max(candles)
-    return candles.count(tallest)
-```
-
----
-
 ## 📅 Date Done
 
 **Date**: *05/06/2025*  

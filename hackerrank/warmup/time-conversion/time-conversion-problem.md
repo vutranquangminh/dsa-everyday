@@ -74,25 +74,6 @@ s = "12:01:00AM"
 
 ---
 
-## ✅ Python Implementation
-
-```python
-def timeConversion(s):
-    period = s[-2:]
-    hh, mm, ss = map(int, s[:-2].split(':'))
-
-    if period == "AM":
-        if hh == 12:
-            hh = 0
-    else:  # PM
-        if hh != 12:
-            hh += 12
-
-    return f"{hh:02}:{mm:02}:{ss:02}"
-```
-
----
-
 ## 📅 Date Done
 
 **Date**: *06/06/2025*  

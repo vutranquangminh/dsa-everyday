@@ -60,18 +60,6 @@ So the **minimum** is `10`, and the **maximum** is `14`.
 
 ---
 
-## ✅ Python Implementation
-
-```python
-def miniMaxSum(arr):
-    total = sum(arr)
-    min_val = min(arr)
-    max_val = max(arr)
-    print(f"{total - max_val} {total - min_val}")
-```
-
----
-
 ## 📅 Date Done
 
 **Date**: *04/06/2025*  

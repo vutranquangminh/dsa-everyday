@@ -69,18 +69,6 @@ oranges = [5, -6]
 
 ---
 
-## ✅ Python Implementation
-
-```python
-def countApplesAndOranges(s, t, a, b, apples, oranges):
-    apple_count = sum(1 for d in apples if s <= a + d <= t)
-    orange_count = sum(1 for d in oranges if s <= b + d <= t)
-    print(apple_count)
-    print(orange_count)
-```
-
----
-
 ## 📅 Date Done
 
 **Date**: *08/06/2025*  

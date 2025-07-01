@@ -73,26 +73,6 @@ scores = [3, 4, 21, 36, 10, 28, 35, 5, 24, 42]
 
 ---
 
-## ✅ Python Implementation
-
-```python
-def breakingRecords(scores):
-    min_score = max_score = scores[0]
-    min_breaks = max_breaks = 0
-
-    for score in scores[1:]:
-        if score > max_score:
-            max_score = score
-            max_breaks += 1
-        elif score < min_score:
-            min_score = score
-            min_breaks += 1
-
-    return [max_breaks, min_breaks]
-```
-
----
-
 ## 📅 Date Done
 
 **Date**: *11/06/2025*  
