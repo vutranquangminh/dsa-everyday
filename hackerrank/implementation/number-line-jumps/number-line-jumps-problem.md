@@ -1,10 +1,10 @@
-# 🧮 Kangaroo - Easy
+# 🧮 Number Line Jumps - Easy
 
 ---
 
 ## 📌 Problem Statement
 
-**Title**: Kangaroo
+**Title**: Number Line Jumps
 
 **Problem Description**:  
 You are choreographing a circus act involving two kangaroos on a number line. Each kangaroo jumps in the positive direction:

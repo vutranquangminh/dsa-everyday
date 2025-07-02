@@ -1,10 +1,10 @@
-# 🧮 Count Apples and Oranges - Easy
+# 🧮 Apples and Oranges - Easy
 
 ---
 
 ## 📌 Problem Statement
 
-**Title**: Count Apples and Oranges
+**Title**: Apples and Oranges
 
 **Problem Description**:  
 Sam’s house is located on a number line between points `s` and `t`. There is an **apple tree** at point `a` and an **orange tree** at point `b`. When fruit falls, it may land at a distance `d` from its tree:

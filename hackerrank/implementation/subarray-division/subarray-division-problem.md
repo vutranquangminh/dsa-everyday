@@ -1,5 +1,4 @@
-
-# 🧮 Birthday Chocolate - Easy
+# 🧮 Subarray Division - Easy
 
 ---
 
