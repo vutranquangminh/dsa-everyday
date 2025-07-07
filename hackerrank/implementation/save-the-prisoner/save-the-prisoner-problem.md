@@ -90,26 +90,6 @@ Sweets go around multiple times. The last sweet lands at seat 6.
 
 ---
 
-## 🧠 Formula Used
-
-To calculate the final position:
-```python
-last = (s + m - 1) % n
-return last if last != 0 else n
-```
-
----
-
-## 🧪 Sample Code (Python)
-
-```python
-def saveThePrisoner(n, m, s):
-    last = (s + m - 1) % n
-    return last if last != 0 else n
-```
-
----
-
 ## 📅 Date Done
 
 **Date**: *29/06/2025*  
